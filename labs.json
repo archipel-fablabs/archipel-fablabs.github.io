@@ -1,0 +1,42 @@
+[
+    {
+        "name":"ACoLab",
+        "latlng":[45.7942,3.0757],
+        "address":"2 bis rue du Clos Perret, Clermont-Ferrand",
+        "url":"https://acolab.fr",
+        "contact":"[acolab2@acolab.fr]",
+        "desc":"Atelier de fabrication numérique + atelier bois, public adulte"
+    },
+    {
+        "name":"Hall32 Fablab",
+        "latlng":[45.790056,3.1050232],
+        "address":"32 Rue du Clos Four, Clermont-Ferrand",
+        "url":"",
+        "contact":"Arthur Riviere [arthur.riviere@hall32.fr]",
+        "desc":"Accueil et encadre des étudiants/ apprentis au sein du Hall32, ou dans le cadre de formation enseignant, stages, prestation d'accompagnement locations d'accès par des entreprises ou start-up. Ouvert sur les horaires de l'école uniquement. matériel à dispo : Imprimante 3D,CNC, thermoformeuse, découpe laser..."
+    },
+    {
+        "name":"SigMake",
+        "latlng":[45.758265,3.1124015],
+        "address":"26 avenue Blaise Pascal 63170 Aubière",
+        "url":"https://sigmake.jimdofree.com",
+        "contact":"Benoit Bellec [benoit.creugny-bellec@sigma-clermont.fr]",
+        "desc":"Fablab universitaire ouvert à tous (réservé aux personnes majeurs) ouverture sur les horaire de l'école uniquement, fabrication numérique, usinage conventionnel, mécanique, métallerie"
+    },
+    {
+        "name":"Médiathèque intercommunale Entre Dore et Allier",
+        "latlng":[45.8252883,3.3762747],
+        "address":"1 rue Dr Grimaud 63190 LEZOUX",
+        "url": "https://mediatheques-entre-dore-et-allier.fr",
+        "contact":"Guillaume Dos Santos [fabrique.mediatheque@ccdoreallier.fr]",
+        "desc":"Bibliothèque publique proposant des ateliers de fabrication numérique/accompagnement informatique. Imprimante 3D, brodeuse numérique, plotter de découpe, machine à badge, machine à coudre"
+    },
+    {
+        "name":"Débrouillo'Lab",
+        "latlng":[45.78143,3.08200],
+        "address":"26 avenue Blaise Pascal 63170 Aubière",
+        "url":"https://debrouillolab.org",
+        "contact":"Noa Soto [contact@debrouillolab.org]",
+        "desc":"fablab pédagogique"
+    }
+] 
