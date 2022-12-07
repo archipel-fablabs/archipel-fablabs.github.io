@@ -118,6 +118,7 @@ function selectLab(id){
     labsDiv.children[selectedLabIndex].classList.remove("archipel-labSelected");
     selectedLabIndex = id;
     labsDiv.children[id].classList.add("archipel-labSelected");
+    labsDiv.children[id].scrollIntoView({ behavior: 'smooth', block: 'center' });
 }
 function fitMarker(id){
     map.flyToBounds([labs[id].latlng]);
