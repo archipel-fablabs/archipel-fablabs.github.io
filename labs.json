@@ -32,11 +32,27 @@
         "desc":"Bibliothèque publique proposant des ateliers de fabrication numérique/accompagnement informatique. Imprimante 3D, brodeuse numérique, plotter de découpe, machine à badge, machine à coudre"
     },
     {
-        "name":"Débrouillo'Lab",
-        "latlng":[45.78143,3.08200],
-        "address":"26 avenue Blaise Pascal 63170 Aubière",
-        "url":"https://debrouillolab.org",
-        "contact":"Noa Soto [contact@debrouillolab.org]",
-        "desc":"Fablab pédagogique ouvert à toutes et tous, pour la découverte ou pour vos projets. Imprimantes 3D, découpeuse laser, plotter CNC."
+        "name":"Réseau° Effervescients",
+        "latlng":[45.76969,3.06721],
+        "address":"6 rue Paul Lapie, 63400 Chamalières",
+        "url":"https://effervescients.org",
+        "contact":"Aurélien Valero",
+        "desc":""
+    },
+    {
+        "name":"ProtoLab (ESACM)",
+        "latlng":[45.76838,3.08739],
+        "address":"25 rue Kessler, 63000 Clermont-Ferrand",
+        "url":"https://www.esacm.fr/category/protolab/",
+        "contact":"Kamel, Florence",
+        "desc":""
+    },
+    {
+        "name":"Le Ti-lieu",
+        "latlng":[45.81153,3.10839],
+        "address":"1er étage Auchan Nord, boulevard Etienne Clementel, 63100 Clermont-Ferrand",
+        "url":"https://initiative.ovh/le-tilieu/",
+        "contact":"Aude",
+        "desc":""
     }
 ] 
