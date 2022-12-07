@@ -70,6 +70,8 @@ fetch("https://archipel-fablabs.github.io/labs.json")
         // append to list
         labDiv.classList.add("labInfo");
         labsDiv.append(labDiv);
+        labDiv.onmouseover = () => labMarkers[index].getIcon().div.style.filter="hue-rotate(130deg)";
+        labDiv.onmouseout = () => labMarkers[index].getIcon().div.style.filter="hue-rotate(0)";
     });
     /////////////////////////////////////
 
@@ -100,6 +102,7 @@ fetch("https://archipel-fablabs.github.io/labs.json")
                 labMarkers[index].closePopup();
                 labsDiv.children[index].classList.remove("archipel-labSelected");
             }
+            labMarkers[index].getIcon().div.style.filter="hue-rotate(0)";
         });
         labMarkers[index].on('click', function(e){
             fitMarker(index);
@@ -116,14 +119,17 @@ fetch("https://archipel-fablabs.github.io/labs.json")
 function selectLab(id){
     labMarkers[id].openPopup();
     labsDiv.children[selectedLabIndex].classList.remove("archipel-labSelected");
+    labMarkers[id].getIcon().div.style.filter="hue-rotate(0)";
     selectedLabIndex = id;
     labsDiv.children[id].classList.add("archipel-labSelected");
     labsDiv.children[id].scrollIntoView({ behavior: 'smooth', block: 'center' });
+    labMarkers[id].getIcon().div.style.filter="hue-rotate(130deg)";
 }
 function fitMarker(id){
     map.flyToBounds([labs[id].latlng]);
     labMarkers[id].openPopup();
     labsDiv.children[selectedLabIndex].classList.remove("archipel-labSelected");
+    labMarkers[id].getIcon().div.style.filter="hue-rotate(0)";
     labsDiv.children[id].classList.add("archipel-labSelected");
     selectedLabIndex = id;
 }
